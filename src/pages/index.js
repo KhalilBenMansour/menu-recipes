@@ -1,5 +1,6 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 export default function Home() {
-  return <div>menu recipes</div>
+  return <Layout>menu recipes</Layout>
 }
