@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const About = () => {
+const Tags = () => {
   return (
-    <Layout>about page</Layout>
+    <Layout>Tags page</Layout>
   )
 }
 
-export default About
+export default Tags
