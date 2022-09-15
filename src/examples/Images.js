@@ -8,7 +8,7 @@ const Images = () => {
       <article>
         <h2>constrained</h2>
         <StaticImage
-          src="../assets/images/recipe-1.jpeg"
+          src="../assets/images/recipes/recipe-1.jpeg"
           alt="food"
           placeholder="tracedSVG"
           layout="constrained"
@@ -19,7 +19,7 @@ const Images = () => {
       <article>
         <h2>fixed</h2>
         <StaticImage
-          src="../assets/images/recipe-1.jpeg"
+          src="../assets/images/recipes/recipe-1.jpeg"
           alt="food"
           placeholder="blurred"
           layout="fixed"
@@ -31,7 +31,7 @@ const Images = () => {
       <article>
         <h2>fullwidth</h2>
         <StaticImage
-          src="../assets/images/recipe-1.jpeg"
+          src="../assets/images/recipes/recipe-1.jpeg"
           alt="food"
           placeholder="dominantColor"
           layout="fullWidth"
