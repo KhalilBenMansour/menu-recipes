@@ -1,15 +1,15 @@
-import React from 'react'
-import Footer from './Footer'
-import Navbar from './navbar'
+import React from "react"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
 import "normalize.css"
 import "../assets/css/main.css"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-    <Navbar/>
-    {children}
-    <Footer/>
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }
